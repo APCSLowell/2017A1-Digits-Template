@@ -1,14 +1,25 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
+# AP Computer Science A 2017 FRQ #1 - Digits
 
-### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+Instructions: https://apcentral.collegeboard.org/pdf/ap-computer-science-a-frq-2017.pdf
 
-### Setup command
-N/A
+Quick Reference:  [https://apstudents.collegeboard.org/ap/pdf/ap-computer-science-a-java-quick-reference.pdf](https://apstudents.collegeboard.org/ap/pdf/ap-computer-science-a-java-quick-reference.pdf) 
 
-### Run command
-`gradle test`
+The correct answer outputs should be as follows.
 
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+Part A:
+
+[1, 5, 7, 0, 4]
+
+[0]
+
+Part B:
+
+[7] -> true
+
+[1, 3, 5, 6] -> true
+
+[1, 3, 3, 6] -> false
+
+[1, 5, 3, 6] -> false
+
+[6, 5, 3, 1, 0] -> false
