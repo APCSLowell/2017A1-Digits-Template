@@ -7,7 +7,7 @@ public class Digits
 
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
-		
+	    
 	}
 
 	public boolean isStrictlyIncreasing()
